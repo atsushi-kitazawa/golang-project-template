@@ -24,9 +24,14 @@ Go言語のプロジェクトテンプレートです。
     以下サイトから Windows のインストーラをダウンロードし、インストールしてください。
     なお、利用するバージョンは 1.18.x 系としてください。
 
-    インストール後、`go` コマンドが実行できることを確認してください。
-
     [Downloads - The Go Programming Language](https://go.dev/dl/)
+
+    `go` コマンドが実行できればインストールは完了です。
+
+    ```
+    > go version
+    go version go1.18.2 windows/amd64
+    ```
 
 3. Gitをインストールする
    
@@ -41,6 +46,8 @@ Go言語のプロジェクトテンプレートです。
 
     このリポジトリをクローンしてください。
     ```
+    > cd %USERPROFILE%
+    > mkdir workspaces #ユーザプロファイル配下に作業ディレクトリを作成
     > git clone https://github.com/atsushi-kitazawa/golang-project-template.git
     ```
 
